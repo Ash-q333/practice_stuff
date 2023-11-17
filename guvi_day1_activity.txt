@@ -1,0 +1,45 @@
+1) Write a blog about the difference between HTTP1.1 and HTTP2.
+
+HTTP (Hypertext Transfer Protocol) is the basis of data communication on the World Wide Web. It is used to transmit hypertext, including text, images and videos.
+HTTP1.1 was the foundation of web communication for many years. HTTP2 introduced features to eliminate its limitations and increase the efficiency of web communication.
+The main differences between http1.1 and http 2 are:
+HTTP1.1 uses multiple connections for parallel data transmission, while HTTP2 uses a single multiplex connection.
+HTTP2 uses binary frames, which increases efficiency and simplifies parsing compared to the text format used by HTTP1.1.
+HTTP2 uses header compression, which reduces redundancy and optimizes network performance.
+
+
+
+
+2) Write a blog about objects and its internal representation in Javascript.
+
+In JavaScript, an object is a data type that stores key-value pairs where values can be primitive types, other objects, or functions. This allows us to use objects for structuring and organizing data.
+
+Internal Representation of Objects:
+1. Properties and Methods:
+Properties represent the data within an object, while methods are functions encapsulated within the object. Both properties and methods are stored internally as key-value pairs.
+2. Prototypes:
+Objects in JavaScript have prototypes, which serve as a blueprint for the object. If a property or method is not found in the object itself, JavaScript looks up the prototype chain to find it.
+3. Hidden Classes:
+JavaScript uses a concept called hidden classes to optimize the performance of objects. When an object is created, a hidden class is created, and objects with similar structures wull be given the same hidden class, this saves memory.
+4. Object Structure:
+The structure of an object can change during runtime. JavaScript engines dynamically adapt the internal representation based on how the object is used, allowing for flexibility in adding or modifying properties.
+5. Property Descriptors:
+Each property in an object has a property description, which tells whether the property is writable, enumerable, or configurable.
+
+
+
+
+4) Read about IP address, port, HTTP methods, MAC address.
+IP address: or internet protocol address is a numeric adress given to all computers in a network to uniquely identify them and provide details on the devices location in the network. there are two versions IPV4 and IPV6.
+
+MAC address: A MAC address is a unique identifier assigned to network interfaces for communication. it helps in mapping IP addresses to physical hardware during network communication.
+
+Port: a port is a communication endpoint that used to identify a specific process or service on a device.
+Ports are like doors on a building, it allows different types of data to enter and exit.
+
+HTTP methods: also known as HTTP verbs, define the type of action the client wants to perform on a resource. Common HTTP methods include:
+
+GET: Retrieve data from a resource.
+POST: Submit data to a resource.
+PUT: Update a resource or create new one if it does not exist.
+DELETE: Remove a resource.

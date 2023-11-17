@@ -1,0 +1,10 @@
+Difference between document and window objects.
+
+In JavaScript, both the document and window objects are essential components of the Document Object Model (DOM).
+
+The document object: Its scope is within the content of a webpage. It represents the HTML document structure and provides access to the elements and content within the document.
+The primary purpose of the document object is to provide methods and properties for interacting with the contents of the document. Ex: you can use document.getElementById() to retrieve a specific element by its ID.
+
+The window object: represents the global environment in which the JavaScript code is executed(browser).
+It contains everything within the browser window, including the document object.
+It provides access to global functions and properties, such as alert(), setTimeout(), and localStorage. These functions and properties are available globally.
